@@ -1,0 +1,10 @@
+[package]
+name = "scream-reader-rs"
+version = "0.1.0"
+authors = ["Matt Bilker <me@mbilker.us>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0.40"
+cpal = "0.13.3"
+ringbuf = "0.2.4"
